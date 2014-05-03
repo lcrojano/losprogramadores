@@ -42,18 +42,28 @@ public class Candidatos extends ActionBarActivity
 	public void oscarivan(View view)
 	{
 		Intent intent = new Intent(this, Perfil.class);
+		intent.putExtra("id", "3");
 		startActivity(intent);
 	}
 	
 	public void martaluciaramirez(View view)
 	{
 		Intent intent = new Intent(this, Perfil.class);
+		intent.putExtra("id", "4");
 		startActivity(intent);
 	}
 	
 	public void juansanto(View view)
 	{
 		Intent intent = new Intent(this, Perfil.class);
+		intent.putExtra("id", "5");
+		startActivity(intent);
+	}
+	
+	public void blanco(View view)
+	{
+		Intent intent = new Intent(this, Perfil.class);
+		intent.putExtra("id", "6");
 		startActivity(intent);
 	}
 

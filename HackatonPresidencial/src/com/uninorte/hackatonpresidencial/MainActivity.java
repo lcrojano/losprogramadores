@@ -31,7 +31,7 @@ public class MainActivity extends ActionBarActivity
     {
     	Intent intent = new Intent(this, Candidatos.class);
 		startActivity(intent);
-		finish();
+		//finish();
     }
     
 
